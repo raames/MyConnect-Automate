@@ -11,7 +11,7 @@ public class DemoExample {
 	
 	@Test
 	public void initialize() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Phanait\\Desktop\\ConnectedProject\\MyConnect-Automate\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","F:\\Automate\\MyConnect-Automate\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
